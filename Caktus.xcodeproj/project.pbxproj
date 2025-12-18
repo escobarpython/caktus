@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D103A47A2EF0BCC200287E1A /* CaktusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4792EF0BCC200287E1A /* CaktusApp.swift */; };
+		D103A47E2EF0BCC500287E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D103A47D2EF0BCC500287E1A /* Assets.xcassets */; };
+		D103A4812EF0BCC500287E1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D103A4802EF0BCC500287E1A /* Preview Assets.xcassets */; };
+		D103A48B2EF0BCC600287E1A /* CaktusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A48A2EF0BCC600287E1A /* CaktusTests.swift */; };
+		D103A4952EF0BCC600287E1A /* CaktusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4942EF0BCC600287E1A /* CaktusUITests.swift */; };
+		D103A4972EF0BCC600287E1A /* CaktusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4962EF0BCC600287E1A /* CaktusUITestsLaunchTests.swift */; };
+		D103A4A82EF0BF0400287E1A /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4A72EF0BF0400287E1A /* Plant.swift */; };
+		D103A4AA2EF0BF1C00287E1A /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4A92EF0BF1C00287E1A /* BluetoothManager.swift */; };
+		D103A4AC2EF0BF3900287E1A /* GroqAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4AB2EF0BF3900287E1A /* GroqAIService.swift */; };
+		D103A4AE2EF0BF6000287E1A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4AD2EF0BF6000287E1A /* LoginView.swift */; };
+		D103A4B02EF0BF7200287E1A /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4AF2EF0BF7200287E1A /* BluetoothView.swift */; };
+		D103A4B22EF0BF8500287E1A /* PlantSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4B12EF0BF8500287E1A /* PlantSelectionView.swift */; };
+		D103A4B52EF0BF9A00287E1A /* PlantReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4B42EF0BF9A00287E1A /* PlantReportView.swift */; };
+		D103A4B72EF0BFE900287E1A /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103A4B62EF0BFE900287E1A /* ColorExtention.swift */; };
+		D103D3432EF0C4F6005C569C /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103D3422EF0C4F6005C569C /* SharedComponents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D103A4872EF0BCC600287E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D103A46E2EF0BCC200287E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D103A4752EF0BCC200287E1A;
+			remoteInfo = Caktus;
+		};
+		D103A4912EF0BCC600287E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D103A46E2EF0BCC200287E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D103A4752EF0BCC200287E1A;
+			remoteInfo = Caktus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D103A4762EF0BCC200287E1A /* Caktus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caktus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D103A4792EF0BCC200287E1A /* CaktusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaktusApp.swift; sourceTree = "<group>"; };
+		D103A47D2EF0BCC500287E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D103A4802EF0BCC500287E1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D103A4862EF0BCC600287E1A /* CaktusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaktusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D103A48A2EF0BCC600287E1A /* CaktusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaktusTests.swift; sourceTree = "<group>"; };
+		D103A4902EF0BCC600287E1A /* CaktusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaktusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D103A4942EF0BCC600287E1A /* CaktusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaktusUITests.swift; sourceTree = "<group>"; };
+		D103A4962EF0BCC600287E1A /* CaktusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaktusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D103A4A72EF0BF0400287E1A /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		D103A4A92EF0BF1C00287E1A /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		D103A4AB2EF0BF3900287E1A /* GroqAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroqAIService.swift; sourceTree = "<group>"; };
+		D103A4AD2EF0BF6000287E1A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D103A4AF2EF0BF7200287E1A /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		D103A4B12EF0BF8500287E1A /* PlantSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantSelectionView.swift; sourceTree = "<group>"; };
+		D103A4B42EF0BF9A00287E1A /* PlantReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantReportView.swift; sourceTree = "<group>"; };
+		D103A4B62EF0BFE900287E1A /* ColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
+		D103D3422EF0C4F6005C569C /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D103A4732EF0BCC200287E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D103A4832EF0BCC600287E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D103A48D2EF0BCC600287E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D103A46D2EF0BCC200287E1A = {
+			isa = PBXGroup;
+			children = (
+				D103A4782EF0BCC200287E1A /* Caktus */,
+				D103A4892EF0BCC600287E1A /* CaktusTests */,
+				D103A4932EF0BCC600287E1A /* CaktusUITests */,
+				D103A4772EF0BCC200287E1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D103A4772EF0BCC200287E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D103A4762EF0BCC200287E1A /* Caktus.app */,
+				D103A4862EF0BCC600287E1A /* CaktusTests.xctest */,
+				D103A4902EF0BCC600287E1A /* CaktusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D103A4782EF0BCC200287E1A /* Caktus */ = {
+			isa = PBXGroup;
+			children = (
+				D103A4A32EF0BCED00287E1A /* Models */,
+				D103A4A42EF0BCF400287E1A /* Views */,
+				D103A4A52EF0BCF800287E1A /* Services */,
+				D103A4A62EF0BD0500287E1A /* Utils */,
+				D103A4792EF0BCC200287E1A /* CaktusApp.swift */,
+				D103A47D2EF0BCC500287E1A /* Assets.xcassets */,
+				D103A47F2EF0BCC500287E1A /* Preview Content */,
+			);
+			path = Caktus;
+			sourceTree = "<group>";
+		};
+		D103A47F2EF0BCC500287E1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D103A4802EF0BCC500287E1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D103A4892EF0BCC600287E1A /* CaktusTests */ = {
+			isa = PBXGroup;
+			children = (
+				D103A48A2EF0BCC600287E1A /* CaktusTests.swift */,
+			);
+			path = CaktusTests;
+			sourceTree = "<group>";
+		};
+		D103A4932EF0BCC600287E1A /* CaktusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D103A4942EF0BCC600287E1A /* CaktusUITests.swift */,
+				D103A4962EF0BCC600287E1A /* CaktusUITestsLaunchTests.swift */,
+			);
+			path = CaktusUITests;
+			sourceTree = "<group>";
+		};
+		D103A4A32EF0BCED00287E1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D103A4A72EF0BF0400287E1A /* Plant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D103A4A42EF0BCF400287E1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D103A4AD2EF0BF6000287E1A /* LoginView.swift */,
+				D103A4AF2EF0BF7200287E1A /* BluetoothView.swift */,
+				D103A4B12EF0BF8500287E1A /* PlantSelectionView.swift */,
+				D103A4B42EF0BF9A00287E1A /* PlantReportView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D103A4A52EF0BCF800287E1A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D103A4A92EF0BF1C00287E1A /* BluetoothManager.swift */,
+				D103A4AB2EF0BF3900287E1A /* GroqAIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D103A4A62EF0BD0500287E1A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D103A4B62EF0BFE900287E1A /* ColorExtention.swift */,
+				D103D3422EF0C4F6005C569C /* SharedComponents.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D103A4752EF0BCC200287E1A /* Caktus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D103A49A2EF0BCC600287E1A /* Build configuration list for PBXNativeTarget "Caktus" */;
+			buildPhases = (
+				D103A4722EF0BCC200287E1A /* Sources */,
+				D103A4732EF0BCC200287E1A /* Frameworks */,
+				D103A4742EF0BCC200287E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caktus;
+			productName = Caktus;
+			productReference = D103A4762EF0BCC200287E1A /* Caktus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D103A4852EF0BCC600287E1A /* CaktusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D103A49D2EF0BCC600287E1A /* Build configuration list for PBXNativeTarget "CaktusTests" */;
+			buildPhases = (
+				D103A4822EF0BCC600287E1A /* Sources */,
+				D103A4832EF0BCC600287E1A /* Frameworks */,
+				D103A4842EF0BCC600287E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D103A4882EF0BCC600287E1A /* PBXTargetDependency */,
+			);
+			name = CaktusTests;
+			productName = CaktusTests;
+			productReference = D103A4862EF0BCC600287E1A /* CaktusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D103A48F2EF0BCC600287E1A /* CaktusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D103A4A02EF0BCC600287E1A /* Build configuration list for PBXNativeTarget "CaktusUITests" */;
+			buildPhases = (
+				D103A48C2EF0BCC600287E1A /* Sources */,
+				D103A48D2EF0BCC600287E1A /* Frameworks */,
+				D103A48E2EF0BCC600287E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D103A4922EF0BCC600287E1A /* PBXTargetDependency */,
+			);
+			name = CaktusUITests;
+			productName = CaktusUITests;
+			productReference = D103A4902EF0BCC600287E1A /* CaktusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D103A46E2EF0BCC200287E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D103A4752EF0BCC200287E1A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D103A4852EF0BCC600287E1A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D103A4752EF0BCC200287E1A;
+					};
+					D103A48F2EF0BCC600287E1A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D103A4752EF0BCC200287E1A;
+					};
+				};
+			};
+			buildConfigurationList = D103A4712EF0BCC200287E1A /* Build configuration list for PBXProject "Caktus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D103A46D2EF0BCC200287E1A;
+			productRefGroup = D103A4772EF0BCC200287E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D103A4752EF0BCC200287E1A /* Caktus */,
+				D103A4852EF0BCC600287E1A /* CaktusTests */,
+				D103A48F2EF0BCC600287E1A /* CaktusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D103A4742EF0BCC200287E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D103A4812EF0BCC500287E1A /* Preview Assets.xcassets in Resources */,
+				D103A47E2EF0BCC500287E1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D103A4842EF0BCC600287E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D103A48E2EF0BCC600287E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D103A4722EF0BCC200287E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D103A4AE2EF0BF6000287E1A /* LoginView.swift in Sources */,
+				D103A4B52EF0BF9A00287E1A /* PlantReportView.swift in Sources */,
+				D103A4B72EF0BFE900287E1A /* ColorExtention.swift in Sources */,
+				D103A4B02EF0BF7200287E1A /* BluetoothView.swift in Sources */,
+				D103D3432EF0C4F6005C569C /* SharedComponents.swift in Sources */,
+				D103A4AC2EF0BF3900287E1A /* GroqAIService.swift in Sources */,
+				D103A4B22EF0BF8500287E1A /* PlantSelectionView.swift in Sources */,
+				D103A4A82EF0BF0400287E1A /* Plant.swift in Sources */,
+				D103A4AA2EF0BF1C00287E1A /* BluetoothManager.swift in Sources */,
+				D103A47A2EF0BCC200287E1A /* CaktusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D103A4822EF0BCC600287E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D103A48B2EF0BCC600287E1A /* CaktusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D103A48C2EF0BCC600287E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D103A4952EF0BCC600287E1A /* CaktusUITests.swift in Sources */,
+				D103A4972EF0BCC600287E1A /* CaktusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D103A4882EF0BCC600287E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D103A4752EF0BCC200287E1A /* Caktus */;
+			targetProxy = D103A4872EF0BCC600287E1A /* PBXContainerItemProxy */;
+		};
+		D103A4922EF0BCC600287E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D103A4752EF0BCC200287E1A /* Caktus */;
+			targetProxy = D103A4912EF0BCC600287E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D103A4982EF0BCC600287E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D103A4992EF0BCC600287E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D103A49B2EF0BCC600287E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caktus/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RPFCH43WF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progressus.Caktus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D103A49C2EF0BCC600287E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caktus/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RPFCH43WF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progressus.Caktus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D103A49E2EF0BCC600287E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RPFCH43WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progressus.CaktusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caktus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Caktus";
+			};
+			name = Debug;
+		};
+		D103A49F2EF0BCC600287E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RPFCH43WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progressus.CaktusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caktus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Caktus";
+			};
+			name = Release;
+		};
+		D103A4A12EF0BCC600287E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RPFCH43WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progressus.CaktusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Caktus;
+			};
+			name = Debug;
+		};
+		D103A4A22EF0BCC600287E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RPFCH43WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progressus.CaktusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Caktus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D103A4712EF0BCC200287E1A /* Build configuration list for PBXProject "Caktus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D103A4982EF0BCC600287E1A /* Debug */,
+				D103A4992EF0BCC600287E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D103A49A2EF0BCC600287E1A /* Build configuration list for PBXNativeTarget "Caktus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D103A49B2EF0BCC600287E1A /* Debug */,
+				D103A49C2EF0BCC600287E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D103A49D2EF0BCC600287E1A /* Build configuration list for PBXNativeTarget "CaktusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D103A49E2EF0BCC600287E1A /* Debug */,
+				D103A49F2EF0BCC600287E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D103A4A02EF0BCC600287E1A /* Build configuration list for PBXNativeTarget "CaktusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D103A4A12EF0BCC600287E1A /* Debug */,
+				D103A4A22EF0BCC600287E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D103A46E2EF0BCC200287E1A /* Project object */;
+}
