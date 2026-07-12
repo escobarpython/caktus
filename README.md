@@ -1,4 +1,4 @@
-# 🌵 Caktus | 2023 - 2024 - 2025 - 2026 (and going!)
+# 🌵 Caktus | 2023 - 2024 - 2025 - 2026 (and counting!)
  
 ![Status](https://img.shields.io/badge/Status-In%20Development-orange)
 ![Swift](https://img.shields.io/badge/Swift-5.0+-orange?logo=swift)
